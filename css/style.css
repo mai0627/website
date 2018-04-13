@@ -1,0 +1,208 @@
+/* Your custom styles */
+html,
+body,
+header,
+#intro {
+  height:100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand{
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+}
+.navbar-brand h5{
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px gray;
+}
+
+nav{
+	background-color:transparent;
+}
+/*Scroll Function*/
+nav.shrink{
+	transition:background-color 2s ease-out;
+	background-color: rgba(0,0,0,.5);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 
+		        0 2px 10px 0 rgba(0,0,0,.12) !important;
+	
+}
+.navbar-brand.addCol{
+	color:white;
+	transition: color 2s ease-out;
+	
+}
+/*Scroll Function + JS END*/
+
+#intro{
+ background: url("../img/bg.jpg");
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+
+/* Button outline */
+.btn-outline-white{
+	border-radius: 25px;
+}
+
+#intro .btn a{
+  text-decoration: none;
+  color:white;
+}
+#intro .btn:hover{
+  background-color:#969696;	
+}
+
+#intro .btn a:visited{
+  color:#ffffff;
+}
+
+/* Logo Img */
+.logoImg img{
+	margin-left:30px;
+}
+
+/*---- Section: Introduction ----*/
+.introductionJap{
+	line-height: 250%;
+	font-size: 1.1em;
+}
+.wf-sawarabimincho { 
+	font-family: "Sawarabi Mincho"; 
+}
+.introductionEng{
+	margin-top:2em;
+	border-top:solid 1px #BDC3C4;
+}
+.welcome{
+	font-size:1.7em;
+	font-weight:700;
+	
+}
+.photographer{
+	font-size: 11px;
+}
+.photoBy{
+	color: cadetblue;
+	font-weight: 600;
+}
+
+/*---- Section: Bio ----*/
+#designerName{
+  padding-top: 20px;
+  font-family:'Raleway', sans-serif;
+  font-weight:700;
+  font-size: 1.7em;
+  color:black;
+  text-align: left;
+}
+.bioJap {
+	margin-top: 1em;
+	line-height: 1cm;
+	color:rgba(66,66,66,.9);
+	text-align: left;
+	font-size: .9em;
+}
+.bioEng{
+	padding-top:1em;
+	line-height: 1cm;
+	color:rgba(66,66,66,.9);
+	text-align: left;
+}
+
+/*---- Section: Slideshow ----*/
+
+/*---- Section: Gallery ----*/
+
+/*---- Section: Footer ----*/
+.page-footer{
+	background:#000000;
+}
+.footer-copyright p{
+	font-size: 0.9em;
+}
+footer a .fa-facebook,.fa-twitter, .fa-google,.fa-linkedin,.fa-youtube{
+  text-decoration: none;
+}
+footer a .fa-facebook:hover{
+  color: #3B5998;
+}
+
+footer a .fa-twitter:hover{
+  color: #55ACEE;
+}
+
+footer a .fa-google:hover{
+  color: #d34836;
+}
+
+footer a .fa-linkedin:hover{
+  color: #007bb5;
+}
+
+footer a .fa-youtube:hover{
+  color: #bb0000;
+}
+/*---- Social rotate css----*/
+.rotate {
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+
+.rotate:hover {
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  transform:rotate(360deg);
+}
+footer .list-inline-item a i{
+  font-size: 20px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+
+  #gallery #galleryGap{
+  margin-bottom: 25px;
+ }
+    .logoImg{
+	    margin-top:30px;
+}
+    .logoImg img{
+	    width:80px;
+}
+
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.logoImg{
+		margin-top:100px;
+		margin-bottom: 30px;
+	}
+	.logoImg img{
+		width:120px;
+	}
+	
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.logoImg{
+		margin-top:100px;
+		margin-bottom: 30px;
+	}
+	.logoImg img{
+		width:120px;
+	}
+}
